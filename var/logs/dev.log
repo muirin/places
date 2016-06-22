@@ -1878,3 +1878,8 @@
 [2016-06-22 21:35:18] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
 [2016-06-22 21:35:18] request.INFO: Matched route "{route}". {"route":"api_api_getplaces","route_parameters":{"_controller":"ApiBundle\\Controller\\ApiController::getPlacesAction","type":"bar","_route":"api_api_getplaces"},"request_uri":"http://localhost/places/web/app_dev.php/api/place/bar?lat=50.06465009999999&lng=19.94497990000002","method":"GET"} []
 [2016-06-22 21:35:18] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2016-06-22 22:01:15] php.DEBUG: symlink(): Could not fetch file information(error 3) {"type":2,"file":"C:\\xampp\\htdocs\\placestest\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Filesystem\\Filesystem.php","line":332,"level":28928} []
+[2016-06-22 22:01:15] php.DEBUG: symlink(): Cannot create symlink, error code(1314) {"type":2,"file":"C:\\xampp\\htdocs\\placestest\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Filesystem\\Filesystem.php","line":332,"level":28928} []
+[2016-06-22 22:01:15] php.DEBUG: unlink(web/bundles/nelmioapidoc): No such file or directory {"type":2,"file":"C:\\xampp\\htdocs\\placestest\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Filesystem\\Filesystem.php","line":178,"level":28928} []
+[2016-06-22 22:01:15] php.DEBUG: symlink(): Could not fetch file information(error 3) {"type":2,"file":"C:\\xampp\\htdocs\\placestest\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Filesystem\\Filesystem.php","line":332,"level":28928} []
+[2016-06-22 22:01:15] php.DEBUG: symlink(): Cannot create symlink, error code(1314) {"type":2,"file":"C:\\xampp\\htdocs\\placestest\\vendor\\symfony\\symfony\\src\\Symfony\\Component\\Filesystem\\Filesystem.php","line":332,"level":28928} []

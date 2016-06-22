@@ -15,9 +15,9 @@ parameters:
         longitude: 18.653226
         radius: 4000
     api_google_maps:
-        url: https://maps.googleapis.com/maps/api/place/nearbysearch/
+        url: 'https://maps.googleapis.com/maps/api/place/nearbysearch/'
         format: json
         key: AIzaSyDmADLRo2nZ3oTZTAw4UpfBm9MIFjXj6vU
     api_gui:
-        url: http://localhost/places/web/app_dev.php/api/place/
+        url: 'http://localhost/places/web/app_dev.php/api/place/'
         place_type: bar
