@@ -1,12 +1,10 @@
-api:
-    resource: "@ApiBundle/Resources/config/routing.yml"
-    prefix:   /
-
-app:
-    resource: "@AppBundle/Controller/"
+gui:
+    resource: "@GuiBundle/Controller/"
     type:     annotation
-# src/Example/PizzaBundle/Resources/config/routing.yml
-bars:
+places_api:
     resource: "@ApiBundle/Controller/ApiController.php"
     prefix: /api/
-    type: rest    
+    type:     annotation
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

@@ -17,3 +17,20 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    #Default API parameters
+    api_place_default:
+        latitude: 54.348545
+        longitude: 18.653226
+        radius: 4000
+
+    #Google maps API
+    api_google_maps:
+        url: https://maps.googleapis.com/maps/api/place/nearbysearch/
+        format: json
+        key: AIzaSyDmADLRo2nZ3oTZTAw4UpfBm9MIFjXj6vU
+    
+    #User interface parameters    
+    api_gui:
+        url: http://localhost/places/web/app_dev.php/api/place/
+        place_type: bar

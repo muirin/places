@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="{{ asset('images/logo.png') }}" class="img-responsive" alt=""></a>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+                        <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+
+<div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD6DZ1xWZXqB36UU4lDyYHd2ONZBAEJdE&libraries=places&callback=initMap" async defer></script>
+  
+	<div class="banner">
+            
+            	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-bottom">
+				<p>Copyrights © 2016 Magdalena Gawel</p>
+                        </div>
+		</div>
+	</div>
+{% endblock %}

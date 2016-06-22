@@ -4,6 +4,10 @@ parameters:
 #    parameter_name: value
 
 services:
-#    service_name:
-#        class: AppBundle\Directory\ClassName
-#        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+    sender:
+        class: AppBundle\Helpers\Sender
+    place_factory:
+        class: ApiBundle\Helpers\PlaceFactory
+    search_response_parser:
+        class: ApiBundle\Helpers\SearchResponseParser
+        arguments: ["@place_factory"]
