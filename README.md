@@ -24,7 +24,7 @@ GUI is available under the following link:
 
 In case of any problems, contact me at mgd.gawel@gmail.com.
 
-Attached please find some printscreens with API interface and example API response.
+Attached please find some printscreens with API interface and example API response (folder: /docs)
 
 Note:
 Google Places API returns up to 20 results. Next 20 + 20 results are available after few seconds (it was about 2-3 seconds when I tested it).
