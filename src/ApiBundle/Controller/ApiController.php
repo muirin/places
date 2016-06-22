@@ -26,7 +26,7 @@ class ApiController extends FOSRestController {
      *      400="Returned in case of incorrect request parameter",
      *      500={
      *           "Returned when error occured",
-     *           "Returned when external API returned error"
+     *           "Returned when external API returned error",
      *           "Returned in case of internal API error"
      *      }
      * },
