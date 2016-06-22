@@ -6,7 +6,7 @@ var bounds;
 function callajax(initialLocation) {
     $.ajax({
         type: "POST",
-        url: "/places/web/app_dev.php/gui/places",
+        url: "/app_dev.php/gui/places",
         data: {
             "lat": initialLocation.lat,
             "lng": initialLocation.lng,

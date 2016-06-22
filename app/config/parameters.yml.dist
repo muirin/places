@@ -32,5 +32,5 @@ parameters:
     
     #User interface parameters    
     api_gui:
-        url: 'http://localhost/places/web/app_dev.php/api/place/'
+        url: 'http://places.loc/app_dev.php/api/place/'
         place_type: bar
